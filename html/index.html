@@ -1,79 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>Junkai Gao</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <!-- Loading Bootstrap -->
   <link href="../css/vendor/bootstrap.min.css" rel="stylesheet">
-
   <!-- Loading Flat UI -->
   <link href="../css/flat-ui.min.css" rel="stylesheet">
-
   <link rel="shortcut icon" href="img/favicon.ico">
+</head>
 
-  <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
-    <!--[if lt IE 9]>
-      <script src="js/vendor/html5shiv.js"></script>
-      <script src="js/vendor/respond.min.js"></script>
-      <![endif]-->
-    </head>
-    <body>
-      <div class="container-fliud">
-          <nav class="navbar navbar-default" role="navigation">
+<body>
 
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
-                <span class="sr-only">Toggle navigation</span>
-              </button>
-              <a class="navbar-brand" href="index.html">Junkai Gao</a>
-            </div>
+  <div class="container-fliud">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 
-            <div class="collapse navbar-collapse" id="navbar-collapse-01">
-
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="work.html">Work Experience</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="education.html">Education</a></li>
-                <li><a href="footprints.html">Footprints</a></li>
-              </ul>
-
-              <p class="navbar-text navbar-right">Email : <a class="navbar-link" href="mailto:gaojk0090@gmail.com">gaojk0090@gmail.com</a></p>
-
-              <!-- <form class="navbar-form navbar-right" action="#" role="search">
-                <div class="form-group">
-                  <div class="input-group">
-                    <input class="form-control" id="navbarInput-01" type="search" placeholder="Search">
-                    <span class="input-group-btn">
-                      <button type="submit" class="btn"><span class="fui-search"></span></button>
-                    </span>
-                  </div>
-                </div>
-              </form> -->
-
-            </div><!-- /.navbar-collapse -->
-          </nav><!-- /navbar -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+        <a class="navbar-brand" href="#">Junkai Gao</a>
       </div>
 
-      <div class="container">
-        <h1>Hello Word!</h1>
-        <p>and Excel, and PowerPoint...</p>
-        <br>
-        <p>I'm hosted with GitHub Pages.</p>
-        <p><a href="https://github.com/gjk0090">My GitHub</p>
-        <p><a href="HomePage">An example homepage with Google Maps API</a></p>
+      <div class="collapse navbar-collapse" id="navbar-collapse-01">
 
-      </div>
-      <!-- /.container -->
+        <ul id="top-menu" class="nav navbar-nav">
+          <li class="active"><a href="#summary">Summary</a></li>
+          <li><a href="#work">Work Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#footprints">Footprints</a></li>
+        </ul>
+
+        <p class="navbar-text navbar-right">Email : <a class="navbar-link" href="mailto:gaojk0090@gmail.com">gaojk0090@gmail.com</a></p>
+
+      </div><!-- /.navbar-collapse -->
+    </nav><!-- /navbar -->
+  </div>
+
+  <div class="container" style="margin-top:50px">
+    <h2>Hello Word!</h2>
+    <p>and Excel, and PowerPoint...</p>
+    <br>
+    <p>I'm hosted with GitHub Pages.</p>
+    <p><a href="https://github.com/gjk0090">My GitHub</p>
+    <p><a href="HomePage">An example homepage with Google Maps API</a></p>
+
+    <div id="summary">
+      <h2>Summary</h2>
+      <br>
+      <h4>Skills</h4>
+      <br>
+      <p>Back end: Java, J2EE, Spring, Hibernate, Struts, SOAP, RESTful, Hadoop, SQL</p>
+      <p>Front end: HTML5, JavaScript, JQuery, CSS3, AngularJS, Android</p>
+      <p>Language: English, Chinese, Cantonese, Japanese</p>
+    </div>
+
+    <div id="work">
+      <h2>Work</h2>
+      <br>
+      <h4>Java Developer, JPMorgan Chase, Dublin, OH, 2014 - now</h4>
+      <br>
+      <p>Consumer & Community Banking Account Detail Report</p>
+      <p>Generated reports of monthly average value and volume of transactions for 40 million accounts.</p>
+      <p>Applied Spring Batch framework to achieve bulk processing.</p>
+      <p>Deployed on multiple servers, wrote code to calculate account range for each server and shell script to invoke the batch jobs.</p>
+      <p>Tested different values to find optimal batch size, saved processing time by 50%.</p>
+      <br>
+      <p>Suspicious Activity Web Referral Forms</p>
+      <p>A Spring MVC based web application for employees to report different kinds of suspicious financial activities.</p>
+      <p>Built front end with JSP and JSTL, used JQuery and regular expression for form validation.</p>
+      <p>Implemented Soap web service using Axis2 for searching and reading submitted forms from other systems.</p>
+      <p>Wrote module for attachment handling which can be used on all forms, used by other developers.</p>
+    </div>
+
+    <div id="projects">
+      <h2>Projects</h2>
+      <br>
+      <h4>Geoinformatics Lab, University of pittsburgh, 2012-2013</h4>
+      <br>
+      <p>Pedestrian Navigation Service (PNS)</p>
+      <p>A mobile navigation system with real time voice direction for pedestrians based on sidewalk network.</p>
+      <p>Implemented Map Matching, Routing and Humanized Direction Generating features on back end using Java servlet.</p>
+      <p>For front end, built mobile friendly web app with JQuery Mobile as well as an Android app with voice input for destination address, geocoded with Google Maps API.</p>
+      <p>Developed a version for blind people with streets weighted by slope, traffic, etc to generate safer and easier routes.</p>
+      <br>
+      <p>Personalized Accessibility Map (PAM)</p>
+      <p>A web app that provides accessibility information and personalized routing within PITT campus.</p>
+      <p>Enriched the system by adding a Point of Interest (POI) and landmark database with more than 300 categorized items collected using Google Maps API.</p>
+      <p>Developed POI Searching feature and Direction with Landmark feature base on the database.</p>
+      <br>
+
+      <h4>GIS Lab, Sun Yat-sen University, Guangzhou, China, 2011-2012</h4>
+      <br>
+      <p>Restaurants Searching System</p>
+      <p>A desktop application to search for restaurants in Guangzhou, China based on MFC and ArcGIS Engine.</p>
+      <p>Users can filter restaurants base on criteria such as name, distance, price and flavor then display on map.</p>
+      <p>Won 2nd prize in GIS Software Developing Competition of school, 2011.</p>
+      <br>
+      <p>Nansha District Industrial Land Use System</p>
+      <p>A geographical information system that focused on data of industrial land use circumstance in Nansha district, Guangzhou.</p>
+      <p>In charge of database design and construction. Experienced field survey with colleagues.</p>
+      <br>
+
+      <h4>Individual Projects</h4>
+      <br>
+      <p>Our Bills</p>
+      <p>An Android app for groups of friends to easily record and split bills when traveling or living together.</p>
+      <p>Designed the application from scratch, analyzed requirement, built user interface wireframe.</p>
+      <p>Developed first version in one night before a trip to Puerto Rico, used during it and gained favorable review among friends.</p>
+      <br>
+
+      <h4>Academic Projects</h4>
+      <br>
+      <p>RN Connect</p>
+      <p>A mobile friendly web app that facilitates a nurse-patient social network.</p>
+      <p>Implemented Facebook-liked posting system, messaging system and appointment system.</p>
+      <p>Built front end with JQuery Mobile and back end with Java servlet.</p>
+      <br>
+      <p>My News Clips</p>
+      <p>An RSS reader with feed categorizing and recommendation feature.</p>
+      <p>Integrated a news clipping feature that allows users to edit and save their favorite article.</p>
+      <p>Conducted system design, planned timeline and led a four people team.</p>
+      <br>
+      <p>MMG online shopping website</p>
+      <p>An online shopping system developed with JSP and JAVA Servlet with a complicated database.</p>
+    </div>
+
+    <div id="education">
+      <h2>Education</h2>
+      <br>
+      <h4>University of Pittsburgh, Pittsburgh, PA — Master of Science : Information Science, 2012 - 2014</h4>
+      <p>Related Coursework: algorithm design, mobile GIS, database management, web development, data mining, computer security, interactive system design, decision support system</p>
+      <br>
+      <h4>Sun Yat-sen University, Guangzhou, China — Bachelor of Science : Geographic Information System, 2008 - 2012</h4>
+      <p>2nd prize in GIS Software Developing Competition, 2011</p>
+      <p>Related Coursework: C, VC++, computer graphics, spatial database, GIS development, Web GIS development</p>
+    </div>
+
+  </div>
+  <!-- /.container -->
 
 
-      <!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
-      <script src="../js/vendor/jquery.min.js"></script>
-      <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <script src="../js/vendor/video.js"></script>
-      <script src="../js/flat-ui.min.js"></script>
+  <!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
+  <script src="../js/vendor/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="../js/vendor/video.js"></script>
+  <script src="../js/flat-ui.min.js"></script>
+  <!-- Custom JS-->
+  <script src="../js/scroll.js"></script>
 
-    </body>
-    </html>
+</body>
+</html>
