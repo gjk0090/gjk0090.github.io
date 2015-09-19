@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Junkai Gao</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Loading Bootstrap -->
+  <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+  <!-- Loading Flat UI -->
+  <link href="css/flat-ui.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <!-- Custom CSS -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container-fliud">
+    <nav class="navbar navbar-default" role="navigation">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+        <a class="navbar-brand" href="index.html">Junkai Gao</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse-01">
+
+        <ul id="top-menu" class="nav navbar-nav">
+          <li><a href="footprints.html"><span class="glyphicon glyphicon-refresh"></span>&nbsp Refresh</a></li>
+          <li><a href="index.html"><span class="glyphicon glyphicon-chevron-left"></span>&nbsp Back to Home</a></li>
+        </ul>
+
+        <p class="navbar-text navbar-right">Email : <a class="navbar-link" href="mailto:gaojk0090@gmail.com">gaojk0090@gmail.com</a></p>
+
+      </div><!-- /.navbar-collapse -->
+    </nav><!-- /navbar -->
+  </div>
+
+  <div class="container-fliud bg-container"  data-stellar-background-ratio="0.4">
+
+    <div class="container-fluid">
+        <div class="row">
+
+          <div class="col-xs-12">
+            <div id="map_canvas" style="margin-bottom: 15px; border: 2px solid #cccccc"></div>
+          </div>
+        </div>
+
+    </div>
+  </div>
+
+  <!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
+  <script src="js/vendor/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/vendor/video.js"></script>
+  <script src="js/flat-ui.min.js"></script>
+  <!-- Custom JS-->
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+  <script src="js/footprints.js"></script>
+
+</body>
+</html>
