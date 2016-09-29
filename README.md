@@ -1,2 +1,2 @@
 # gjk0090.github.io
-my page
+my free github homepage http://gjk0090.github.io/ 
